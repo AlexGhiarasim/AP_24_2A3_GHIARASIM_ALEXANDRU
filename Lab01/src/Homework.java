@@ -19,7 +19,7 @@ public class Homework {
         return nr == k;
     }
     public static void main(String[] args) {
-
+        long start = System.currentTimeMillis();
         if (args.length != 3)
         {
             System.out.println("Number of parameters incorrect!");
@@ -53,7 +53,8 @@ public class Homework {
             }
         }
         System.out.println("Numbers " + k +"-reductible : " + numbers);
+        long end = System.currentTimeMillis();
+        long elapsedTime = end - start; 
+        System.out.println("Running time in miliseconds is: " + elapsedTime);
     }
 }
-
-
