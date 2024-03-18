@@ -32,6 +32,7 @@ public class Main {
         TreeSet<Passenger> passengers = listOfPersons.stream()
                 .filter(person -> person instanceof Passenger)
                 .map(person -> (Passenger) person)
+                .sorted(Comparator.comparing(Passenger::getName))
                 .collect(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(Passenger::getName))));
 
         System.out.println("\nPasagerii sortati dupa nume: ");
