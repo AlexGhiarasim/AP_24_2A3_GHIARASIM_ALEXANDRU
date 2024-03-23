@@ -1,4 +1,3 @@
-
 Compulsory - vazut (l-am pastrat integrat in cod)
 Homework - am facut toate functiile cerute in cerinta - am pus comentarii aferente - practic pentru aceasta componenta am creat clasa Problem - iar in Main Class folosesc o instanta a clasei Problem cu toate destinatiile si persoanele din cerinta
-Bonus - am create 4 functii statice pentru aceasta componenta in Main Class, si in una creez graful, generez destinatii pentru fiecare sofer, si 
+Bonus - am create 4 functii statice pentru aceasta componenta in Main Class. Practic creez graful, generez o lista de destinatii prin care poate trece un Driver pana la destinatia sa finala (este o specificatie in cerinta ca un Driver poate trece prin mai multe destinatii pana sa ajunga in destinatia sa finala), si apoi creez o lista cu drivers si passengers maximala, respectand restrictia ca oricum as lua o pereche (driver, passenger), acestia nu au muchie comuna - un sofer nu poate prelua un pasager. Asemenea unui graf bipartit. 
